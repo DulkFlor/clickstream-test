@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Clickstream Test</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            padding: 20px;
+        }
+        button, a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+
+    <!-- Aquí pega el script de Microsoft Clarity -->
+</head>
+<body>
+    <h1>Página de Prueba Clickstream</h1>
+    <p>Haz clic en los botones para simular interacción:</p>
+
+    <button onclick="alert('Click en botón 1')">Botón 1</button>
+    <button onclick="alert('Click en botón 2')">Botón 2</button>
+    <a href="#seccion">Ir a sección</a>
+
+    <div id="seccion" style="margin-top: 1000px;">
+        <h2>Sección inferior</h2>
+        <p>Has llegado al final de la página.</p>
+    </div>
+</body>
+</html>
